@@ -1,0 +1,59 @@
+nav{
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+body{
+    background-color: violet;
+    background-size: 2000px;
+    background-image: url(CallOfDuty.jpg);
+    background-repeat: no-repeat;
+
+
+}
+
+p{
+    color: whitesmoke;
+    font-size: large;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+    font-size: 20px;
+    color: white;
+}
+
+nav{
+    color: darkblue;
+}
+
+th,td{
+     border: 1px solid rgb(2, 2, 81);
+     color: darkblue;
+    text-align: center;
+    padding: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    border-style: outset;
+    
+}
+
+tr:nth-child(odd){
+    background-color: white;
+}
+
+tr:nth-child(even){
+    background-color: gray;
+}
+
+caption{
+    width: auto;
+    font-size: 50px;
+}
+

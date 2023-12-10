@@ -1,0 +1,35 @@
+nav{
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+body{
+    background-color: rgb(198, 55, 4);
+
+
+}
+
+p{
+    color: whitesmoke;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+    font-size: larger;
+}
+
+nav{
+    color: yellowgreen;
+}
+
+form{
+    color: white;
+    border: solid;
+    margin-left: 200px;
+    background-color: peru;
+}
+

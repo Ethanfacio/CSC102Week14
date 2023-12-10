@@ -1,0 +1,44 @@
+nav{
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+body{
+    background-color: royalblue;
+
+}
+
+p{
+    color: whitesmoke;
+}
+
+footer{
+    text-align: center;
+    margin-right: 700px; ;
+    float:right;
+    font-size: large;
+
+}
+
+nav{
+    color: blue;
+}
+
+h3{
+    font-size: large;
+    border-style: solid;
+    width: 1000px;
+    float:left;
+    background-color: silver;
+}
+
+h2{
+    border-style: solid;
+    width: 900px;
+    float: left;
+    background-color:silver ;
+    width: 1100px;
+}

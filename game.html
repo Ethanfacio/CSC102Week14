@@ -1,0 +1,57 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <!--
+    Webpage for CSC102 Fa 2023
+    Week1
+    Wriiten by: Ethan Facio
+    ethfacio@uat.edu
+     18Sep2023-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ethan Facio's Game page</title>
+        <script src="gamecode.js"></script>
+        <link rel="stylesheet" href="stylegames.css">
+    </head>
+    
+    <body>
+        <header>
+        <h1>Welcome to my Game Page</h1>
+        <h3>Want to play getnine?</h3>  
+        </header>
+        <nav>
+            <h2>
+               Navigation
+            </h2>
+            <a href="./index.html">
+               Home
+            </a><br>
+            <a href="./Boards.html">
+               Boards 
+            </a><br>
+            <a href="./strings.html">
+                Strings
+             </a><br>
+             <a href="./Table.html">
+                Table
+             </a><br>
+           </nav>
+        <p>
+  <img id="casinoImg" src="GameHTMLPicture.jpg"><br>
+            The rules of getnine:<br>
+            1.Roll three dice<br>
+            2.If the sum of the dice is anything but 9, you lose!<br>
+            3.get the sum of 9 then, you win<br>
+        </p>
+        Press button to play get nine<br>
+        Die 1 result:<div id="die1res">Press play getnine for result</div><br>
+        Die 2 result:<div id="die2res">Press play getnine for result</div><br>
+        Die 3 result:<div id="die3res">Press play getnine for result</div><br>
+        Sum result:<div id="sumres">Press play getnine for result</div><br>
+        Final result:<div id="finres">Press play getnine for result</div><br>
+        <button onclick="playgetnine()">
+            Play getnine<br>
+        </button><br>
+        <audio id="CasinoAudio" src="the-best-jazz-club-in-new-orleans-164472.mp3"></audio>
+    </body>
+    </html>

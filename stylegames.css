@@ -1,0 +1,39 @@
+nav{
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+body{
+    background-color: cyan;
+
+}
+
+p{
+    color: darkorange;
+    font-size: large;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+nav{
+    color: darkred;
+}
+
+#casinoImg{
+    margin-right: 200px;
+   margin-left:500px;
+   border: outset;
+   border-radius: 120px;
+   float: right;   
+}
+ header{
+    color: plum;
+ }
+
+

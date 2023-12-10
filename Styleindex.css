@@ -1,0 +1,54 @@
+nav{
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+body{
+    background-color: violet;
+    background-image: url(BlueSpace.jpg);
+    background-size: 2000px;
+
+}
+
+p{
+    color: whitesmoke;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+nav{
+    color: rgb(131, 97, 131);
+}
+/* get the meme image and put any animation however please to make it move*/
+#memeImage{
+    margin-right: 200px;
+    animation-duration: 0s;
+    animation-name: moving;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+/* get the keyframes to refrence our animation by using our animation Name*/
+@keyframes moving {
+   from{
+    margin-top: 150px; margin-right: 100px;
+}
+   to{
+    margin-right: 200px; margin-left: 150px;
+   }
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+
+
+  

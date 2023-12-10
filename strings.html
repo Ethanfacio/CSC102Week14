@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--String page for CSC102 Fa 2023
+    Week1
+Wriiten by: Ethan Facio
+ethfacio@uat.edu
+11Sep2023
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan Facio's Strings Page</title>
+    <script src="validateInput.js"></script>
+    <link rel="stylesheet" href="Stylestrings.css">
+
+</head>
+
+<body>
+    <header style="text-align: center;">
+        <h1>
+            Welcome to Ethan Facio's Strings page
+        </h1>
+    </header>
+    <nav>
+     <h2>
+        Navigation
+     </h2>
+     <a href="./index.html">
+        Home
+     </a><br>
+     <a href="./Boards.html">
+        Boards 
+     </a><br>
+     <a href="./game.html">
+        Game
+     </a><br>
+    <a href="./Table.html">
+       Table
+    </a><br>
+    </nav>
+    <p>
+        Welcome to my String page at UAT. I created this page for my CSC102 intro to programming class
+        CSC102 covers html, CSS, and Javascript and web development
+    </p>
+    <br>
+    <br>
+    <!--this is to show a box for the name and zip code 
+    and being able to put information in them and then we have the button were in 
+one click it will process everything-->
+    <form id="myform">
+        <label for="FirstName">First Name:</label>
+        <input type="text" id="FirstName" name="FirstName"><br><br>
+        <label for="LastName">Last Name:</label>
+        <input type="text" id="LastName" name="LastName"><br><br>
+        <label for="zip">zip code:</label>
+        <input type="number" id="zip" name="zip"><br><br>
+        <input type="submit" value="submit">
+    </form>
+
+    <form>
+        <label for="palindrome">check Palindrome</label>
+        <button onclick="checkPalindrome()">
+            checkPalindrome<br>
+        </button><br>
+
+    </form>
+
+    <footer style="text-align: center;">
+     Ethan Facio<br>
+     University Of Advancing Technolgy<br>
+     2625 W. Baseline Road<br>
+     Tempe, AZ 85283-1056<br>
+     <br>
+     877-UAT-GEEK<br>
+    </footer>
+</body>
+
+</html>
